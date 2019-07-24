@@ -30,7 +30,7 @@
     "url": "git+https://github.com/chrisparsons83/RedditFFDiscordBot.git"
   },
   "scripts": {
-    "start": "./node_modules/.bin/nodemon app.js",
+    "start": "node app.js",
     "test": "./node_modules/.bin/mocha --timeout 5000"
   },
   "version": "0.0.0",
